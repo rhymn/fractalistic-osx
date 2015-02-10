@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63C9367B1A8AA15D00D65010 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C936791A8AA15D00D65010 /* Settings.swift */; };
+		63C9367C1A8AA15D00D65010 /* SettingsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C9367A1A8AA15D00D65010 /* SettingsRepository.swift */; };
 		63E402DF1A8A8F89003DA0FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E402DE1A8A8F89003DA0FA /* AppDelegate.swift */; };
 		63E402E11A8A8F89003DA0FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E402E01A8A8F89003DA0FA /* Images.xcassets */; };
 		63E402E41A8A8F89003DA0FA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E402E21A8A8F89003DA0FA /* MainMenu.xib */; };
 		63E402F01A8A8F89003DA0FA /* FractalisticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E402EF1A8A8F89003DA0FA /* FractalisticTests.swift */; };
-		63E402FB1A8A8FC2003DA0FA /* SettingsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E402F91A8A8FC2003DA0FA /* SettingsRepository.swift */; };
-		63E402FC1A8A8FC2003DA0FA /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E402FA1A8A8FC2003DA0FA /* Settings.swift */; };
 		63E403001A8A91D0003DA0FA /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E402FF1A8A91D0003DA0FA /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63C936791A8AA15D00D65010 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		63C9367A1A8AA15D00D65010 /* SettingsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsRepository.swift; sourceTree = "<group>"; };
 		63E402D91A8A8F89003DA0FA /* Fractalistic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fractalistic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E402DD1A8A8F89003DA0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E402DE1A8A8F89003DA0FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,8 +37,6 @@
 		63E402E91A8A8F89003DA0FA /* FractalisticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FractalisticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E402EE1A8A8F89003DA0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E402EF1A8A8F89003DA0FA /* FractalisticTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalisticTests.swift; sourceTree = "<group>"; };
-		63E402F91A8A8FC2003DA0FA /* SettingsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsRepository.swift; path = ../../../playground/MadLibs/MadLibs/SettingsRepository.swift; sourceTree = "<group>"; };
-		63E402FA1A8A8FC2003DA0FA /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = ../../../playground/MadLibs/MadLibs/Settings.swift; sourceTree = "<group>"; };
 		63E402FF1A8A91D0003DA0FA /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,8 +79,8 @@
 		63E402DB1A8A8F89003DA0FA /* Fractalistic */ = {
 			isa = PBXGroup;
 			children = (
-				63E402F91A8A8FC2003DA0FA /* SettingsRepository.swift */,
-				63E402FA1A8A8FC2003DA0FA /* Settings.swift */,
+				63C936791A8AA15D00D65010 /* Settings.swift */,
+				63C9367A1A8AA15D00D65010 /* SettingsRepository.swift */,
 				63E402DE1A8A8F89003DA0FA /* AppDelegate.swift */,
 				63E402E01A8A8F89003DA0FA /* Images.xcassets */,
 				63E402E21A8A8F89003DA0FA /* MainMenu.xib */,
@@ -214,8 +214,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E402FC1A8A8FC2003DA0FA /* Settings.swift in Sources */,
-				63E402FB1A8A8FC2003DA0FA /* SettingsRepository.swift in Sources */,
+				63C9367C1A8AA15D00D65010 /* SettingsRepository.swift in Sources */,
+				63C9367B1A8AA15D00D65010 /* Settings.swift in Sources */,
 				63E403001A8A91D0003DA0FA /* RootViewController.swift in Sources */,
 				63E402DF1A8A8F89003DA0FA /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +405,7 @@
 				63E402F51A8A8F89003DA0FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63E402F61A8A8F89003DA0FA /* Build configuration list for PBXNativeTarget "FractalisticTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				63E402F81A8A8F89003DA0FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
